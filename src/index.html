@@ -8,6 +8,7 @@
   </head>
   <body>
     <img
+      class="nav-image"
       src="img/nav-desktop.png?as=webp&width=2000"
       srcset="
         img/nav-mobile.png?as=webp&width=375    375w,
@@ -19,7 +20,65 @@
     <section class="section-01-sport">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-md-11 col-lg-11">carte grande 01</div>
+          <div class="col-sm-4 col-md-11 col-lg-8">
+            <include src="include-template-card.html">
+              { "categorylogoimg": "img/sport-big-img-logo.svg",
+              "categorylogoimgalt": "sport section logo in corner",
+              "bigcardimg": "img/sport-cartegrande.webp", "bigcardimgalt": "big
+              card man with trophy", "bigcardauthor": "Yoan Graber",
+              "bigcardtitle": "Ce Romand est à la base des exploits du Real
+              Madrid et de son gardien", "bigcardchapo": "Thierry Barnerat (59
+              ans) est l'analyste vidéo de Thibaut Courtois, portier du
+              prestigieux club espagnol.." }
+            </include>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-12">
+            <include src="include-template-card.html">
+              { "mediumcardimg": "img/sport-cartemedium-01.png?as=webp",
+              "mediumcardimgalt": "medium card with 3 biker men",
+              "mediumcardcategory": "sport", "mediumcardtitle": "Pourquoi tant
+              de cyclistes vivent-ils un drame après leur carrière?",
+              "meduimcardauthor": "Sven Papaux", "mediumcard-date-time":
+              "08.01.2024, 8:30" }
+            </include>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-12">carte medium 02</div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <img src="img/cathegorie-01.svg" alt="category sport" />
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            { "smallcardimg": "img/sport-cartepetite-01.webp",
+            "smallcardimgalt": "small card with tennis player showing his
+            teeth", "smallcardcategory": "sport", "smallcardtitle": "Enorme coup
+            dur pour Rafael Nadal", "smallcardauthor": "Team Watson"}
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">carte petite 02</div>
+          <div class="col-sm-12 col-md-6 col-lg-4">carte petite 03</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-02-societe">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-md-11 col-lg-8">
+            <include src="include-template-card.html">
+              { "section-logo-img": "img/societe-big-img-logo.svg",
+              "section-logo-imgalt": "society section logo in corner",
+              "bigcardimg": "img/societe-cartegrande.png?as=webp",
+              "bigcardimgalt": "big card horses on field", "bigcardauthor":
+              "Team Watson", "bigcardtitle": "Des bergers préhistoriques ont eu
+              une immense influence sur notre santé", "bigcardchapo": "Des gènes
+              vieux de 34 000 ans influencent notre santé (et pas que). Une
+              vaste étude nous en apprend plus sur..." }
+            </include>
+          </div>
         </div>
       </div>
       <div class="container">
@@ -30,13 +89,48 @@
       </div>
       <div class="container">
         <div class="row">
+          <img src="img/cathegorie-02.svg" alt="category society" />
           <div class="col-sm-12 col-md-6 col-lg-4">carte petite 01</div>
           <div class="col-sm-12 col-md-6 col-lg-4">carte petite 02</div>
           <div class="col-sm-12 col-md-6 col-lg-4">carte petite 03</div>
         </div>
       </div>
     </section>
+
+    <section class="section-03-suisse">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-md-11 col-lg-8">
+            <include src="include-template-card.html">
+              { "section-logo-img": "img/suisse-big-img-logo.svg",
+              "section-logo-imgalt": "swiss section logo in corner",
+              "bigcardimg": "img/suisse-cartegrande.webp", "bigcardimgalt": "big
+              card woman in water", "bigcardauthor": "Team Watson",
+              "bigcardtitle": "La Suisse fête l'Epiphanie, entre tradition et
+              liesse populaire", "bigcardchapo": "Les amateurs de traditions
+              peuvent enfin célébrer le jour de l'Epiphanie, le 6 janvier." }
+            </include>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-12">carte medium 01</div>
+          <div class="col-sm-12 col-md-6 col-lg-12">carte medium 02</div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <img src="img/cathegorie-03.svg" alt="category sport" />
+          <div class="col-sm-12 col-md-6 col-lg-4">carte petite 01</div>
+          <div class="col-sm-12 col-md-6 col-lg-4">carte petite 02</div>
+          <div class="col-sm-12 col-md-6 col-lg-4">carte petite 03</div>
+        </div>
+      </div>
+    </section>
+
     <img
+      class="footer-image"
       src="img/footer-desktop.png?as=webp&width=2000"
       srcset="
         img/footer-mobile.png?as=webp&width=375    375w,
