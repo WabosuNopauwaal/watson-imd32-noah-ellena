@@ -21,9 +21,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4 col-md-11 col-lg-8">
-            <include src="include-template-card.html">
+            <include src="big-card-template.html">
               { "categorylogoimg": "img/sport-big-img-logo.svg",
-              "categorylogoimgalt": "sport section logo in corner",
+              "categorylogoimgalt" : "sport section logo in corner",
               "bigcardimg": "img/sport-cartegrande.webp", "bigcardimgalt": "big
               card man with trophy", "bigcardauthor": "Yoan Graber",
               "bigcardtitle": "Ce Romand est à la base des exploits du Real
@@ -37,13 +37,12 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-12">
-            <include src="include-template-card.html">
-              { "mediumcardimg": "img/sport-cartemedium-01.png?as=webp",
-              "mediumcardimgalt": "medium card with 3 biker men",
-              "mediumcardcategory": "sport", "mediumcardtitle": "Pourquoi tant
-              de cyclistes vivent-ils un drame après leur carrière?",
-              "meduimcardauthor": "Sven Papaux", "mediumcard-date-time":
-              "08.01.2024, 8:30" }
+            <include src="medium-card-template.html">
+              { "img/sport-cartemedium-01.png?as=webp", "mediumcardimgalt" :
+              "medium card with 3 biker men", "mediumcardcategory" : "sport",
+              "mediumcardtitle" : "mediumcardtitle": "Pourquoi tant de cyclistes
+              vivent-ils un drame après leur carrière?", "mediumcardauthor" :
+              "Sven Papaux", "mediumcard-date-time" : "08.01.2024, 8:30" }
             </include>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-12">carte medium 02</div>
@@ -53,10 +52,12 @@
         <div class="row">
           <img src="img/cathegorie-01.svg" alt="category sport" />
           <div class="col-sm-12 col-md-6 col-lg-4">
-            { "smallcardimg": "img/sport-cartepetite-01.webp",
-            "smallcardimgalt": "small card with tennis player showing his
-            teeth", "smallcardcategory": "sport", "smallcardtitle": "Enorme coup
-            dur pour Rafael Nadal", "smallcardauthor": "Team Watson"}
+            <include src="small-card-template.html">
+              { "smallcardimg": "img/sport-cartepetite-01.webp",
+              "smallcardimgalt": "small card with tennis player showing his
+              teeth", "smallcardcategory": "sport", "smallcardtitle": "Enorme
+              coup dur pour Rafael Nadal", "smallcardauthor": "Team Watson"}
+            </include>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">carte petite 02</div>
           <div class="col-sm-12 col-md-6 col-lg-4">carte petite 03</div>
@@ -68,7 +69,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4 col-md-11 col-lg-8">
-            <include src="include-template-card.html">
+            <include src="big-card-template.html">
               { "section-logo-img": "img/societe-big-img-logo.svg",
               "section-logo-imgalt": "society section logo in corner",
               "bigcardimg": "img/societe-cartegrande.png?as=webp",
@@ -101,7 +102,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4 col-md-11 col-lg-8">
-            <include src="include-template-card.html">
+            <include src="big-card-template.html">
               { "section-logo-img": "img/suisse-big-img-logo.svg",
               "section-logo-imgalt": "swiss section logo in corner",
               "bigcardimg": "img/suisse-cartegrande.webp", "bigcardimgalt": "big
