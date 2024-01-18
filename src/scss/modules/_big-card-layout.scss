@@ -1,31 +1,36 @@
 .corner-logo {
   position: relative;
-  bottom: -120px;
+  bottom: -130px;
   left: 80%;
 }
 
 .background-bar {
-  position: relative;
-  bottom: 60px;
-  width: 361.492px;
-  height: 719.678px;
+  fill: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  transform: none;
 }
 
-// .big-card {
-//   color: white;
-// }
+.big-card {
+  color: white;
+  position: static;
+}
 
 .author-name {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-left: 21px;
+  z-index: 1;
 }
 .card-text {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 3px;
+  padding-left: 21px;
+  z-index: 1;
 }
 
 .card-title {
@@ -33,4 +38,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-left: 21px;
+  z-index: 1;
 }

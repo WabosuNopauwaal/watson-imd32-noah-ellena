@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
+    <title>projet watson</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
@@ -20,58 +20,131 @@
     <section class="section-01-sport">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-md-11 col-lg-8">
+          <div class="col-sm-12 col-md-11 col-lg-8">
             <include src="big-card-template.html">
-              { "cardimg": "img/sport-cartegrande.png?as=webp", "cardimgalt":
-              "big card man with trophy", "cardauthor": "Yoan Graber",
-              "cardtitle": "Ce Romand est à la base des exploits du Real Madrid
-              et de son gardien", "cardchapo": "Thierry Barnerat (59 ans) est
-              l'analyste vidéo de Thibaut Courtois, portier du prestigieux club
-              espagnol.." }
+              { "categoryimg" : "img/sport-big-img-logo.svg", "categoryimgalt" :
+              "sport category logo", "cardimg":
+              "img/sport-cartegrande.png?as=webp", "cardimgalt": "big card man
+              with trophy", "cardauthor": "Yoan Graber", "cardtitle": "Ce Romand
+              est à la base des exploits du Real Madrid et de son gardien",
+              "cardchapo": "Thierry Barnerat (59 ans) est l'analyste vidéo de
+              Thibaut Courtois, portier du prestigieux club espagnol.." }
             </include>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-12">
-            <include src="medium-card-template.html">
-              { "cardimg" : "img/societe-cartemedium-02.png", "cardimgalt" :
-              "medium card with 3 biker men", "cardcategory" : "sport",
-              "cardtitle" : "Pourquoi tant de cyclistes vivent-ils un drame
-              après leur carrière?", "cardauthor" : "Sven Papaux",
-              "card-date-time" : "08.01.2024, 8:30" }
-            </include>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="medium-card">
+              <img
+                class="hide-img bookmark-mediumcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                src="img/sport-cartemedium-01.png?as=webp"
+                alt="medium card with 3 biker men"
+              />
+              <p class="category-mediumcard">sport</p>
+              <p class="text-mediumcard">
+                Pourquoi tant de cyclistes vivent-ils un drame après leur
+                carrière?
+              </p>
+              <p class="author-mediumcard">Sven Papaux</p>
+              <p class="date-date-mediumcard">08.01.2024, 8:30</p>
+            </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-12"></div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="medium-card">
+              <img
+                class="hide-img bookmark-mediumcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                src="img/sport-cartemedium-02.png?as=webp"
+                alt="medium card with 3 unihockey men"
+              />
+              <p class="category-mediumcard">sport</p>
+              <p class="text-mediumcard">
+                Genève n'a aucune chance d'organiser la finale de la Champions
+                League
+              </p>
+              <p class="author-mediumcard">Klaus Zaugg</p>
+              <p class="date-date-mediumcard">08.01.2024, 9:12</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <img class="col-3" src="img/cathegorie-01.svg" alt="category sport" />
+          <div class="col">
+            <img
+              class="category-logo col-sm-3 col-md-3 col-lg-3"
+              src="img/cathegorie-01.svg"
+              alt="category sport"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4">
-            <include src="small-card-template.html">
-              { "cardimg" : "img/sport-cartepetite-01.png?as=webp", "cardimgalt"
-              : "small card with tennis player showing his teeth",
-              "cardcategory" : "sport", "cardtitle" : "Enorme coup dur pour
-              Rafael Nadal", "cardauthor" : "Team Watson" }
-            </include>
+            <div class="small-card">
+              <img
+                class="hide-img bookmark-smallcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                class="hide-img"
+                src="img/sport-cartepetite-01.png"
+                alt="small card with tennis athlete showing his teeth"
+              />
+              <p class="category-smallcard">sport</p>
+              <p class="text-smallcard">Enorme coup dur pour Rafael Nadal</p>
+              <p class="author-smallcard">Team Watson</p>
+            </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
-            <include src="small-card-template.html">
-              { "cardimg" : "img/sport-cartepetite-02.png?as=webp", "cardimgalt"
-              : "small card with a tennis player woman and legos around her",
-              "cardcategory" : "sport", "Iga Swiatek est devenue meilleure
-              grâce... aux Lego", "cardauthor" : "Romuald Cachod" }
-            </include>
+            <div class="small-card">
+              <img
+                class="hide-img bookmark-smallcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                class="hide-img"
+                src="img/sport-cartepetite-02.png"
+                alt="small card with tennis player woman and legos around"
+              />
+              <p class="category-smallcard">sport</p>
+              <p class="text-smallcard">
+                Iga Swiatek est devenue meilleure grâce... aux Lego
+              </p>
+              <p class="author-smallcard">Romuald Cachod</p>
+            </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
-            <include src="small-card-template.html">
-              { "cardimg" : "img/sport-cartepetite-03.png?as=webp", "cardimgalt"
-              : "small card with ski jumper", "cardcategory" : "sport",
-              "cardtitle" : "Marco Odermatt s'impose dans la discipline qui lui
-              résistait encore", "cardauthor" : "Team Watson" }
-            </include>
+            <div class="small-card">
+              <img
+                class="hide-img bookmark-smallcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                class="hide-img"
+                src="img/sport-cartepetite-03.png"
+                alt="small card with ski jumper"
+              />
+              <p class="category-smallcard">sport</p>
+              <p class="text-smallcard">
+                Marco Odermatt s'impose dans la discipline qui lui résistait
+                encore
+              </p>
+              <p class="author-smallcard">Team Watson</p>
+            </div>
           </div>
         </div>
       </div>
@@ -80,31 +153,71 @@
     <section class="section-02-societe">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-md-11 col-lg-8">
+          <div class="col-sm-12 col-md-11 col-lg-8">
             <include src="big-card-template.html">
-              { "cardimg": "img/societe-cartegrande.png?as=webp", "cardimgalt":
-              "big card horses on field", "cardauthor": "Team Watson",
-              "cardtitle": "Des bergers préhistoriques ont eu une immense
-              influence sur notre santé", "cardchapo": "Des gènes vieux de 34
-              000 ans influencent notre santé (et pas que). Une vaste étude nous
-              en apprend plus sur..." }
+              { "categoryimg" : "img/societe-big-img-logo.svg", "categoryimgalt"
+              : "scociety category logo", "cardimg":
+              "img/societe-cartegrande.png?as=webp", "cardimgalt": "big card
+              horses on field", "cardauthor": "Team Watson", "cardtitle": "Des
+              bergers préhistoriques ont eu une immense influence sur notre
+              santé", "cardchapo": "Des gènes vieux de 34 000 ans influencent
+              notre santé (et pas que). Une vaste étude nous en apprend plus
+              sur..." }
             </include>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-12"></div>
-          <div class="col-sm-12 col-md-6 col-lg-12"></div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="medium-card">
+              <img
+                class="hide-img bookmark-mediumcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                src="img/societe-cartemedium-01.png?as=webp"
+                alt="medium card with 3 unihockey men"
+              />
+              <p class="category-mediumcard">scociété</p>
+              <p class="text-mediumcard">
+                «J'ai vu des images de mort»: le LSD a changé sa vie
+              </p>
+              <p class="author-mediumcard">Julia Jannaschk</p>
+              <p class="date-date-mediumcard">09.01.2024, 11:47</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="medium-card">
+              <img
+                class="hide-img bookmark-mediumcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                src="img/societe-cartemedium-02.png?as=webp"
+                alt="medium card with 3 unihockey men"
+              />
+              <p class="category-mediumcard">société</p>
+              <p class="text-mediumcard">Le Botox aurait une vertu cachée</p>
+              <p class="author-mediumcard">Bruno Knellwolf</p>
+              <p class="date-date-mediumcard">09.01.2024, 12:02</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <img
-            class="col-3"
+            class="category-logo col-sm-3 col-md-3 col-lg-3"
             src="img/cathegorie-02.svg"
             alt="category society"
           />
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4">
             <include src="small-card-template.html">
               { "cardimg" : "img/societe-cartepetite-01.png?as=webp",
@@ -114,8 +227,45 @@
               "Alyssa Garcia" }
             </include>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4"></div>
-          <div class="col-sm-12 col-md-6 col-lg-4"></div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="small-card">
+              <img
+                class="hide-img bookmark-smallcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                class="hide-img"
+                src="img/societe-cartepetite-02.png"
+                alt="small card with Danemark Royality"
+              />
+              <p class="category-smallcard">société</p>
+              <p class="text-smallcard">
+                Le scandale d'adultère derrière l'abdication de la reine du
+                Danemark
+              </p>
+              <p class="author-smallcard">Marine Brunner</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="small-card">
+              <img
+                class="hide-img bookmark-smallcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                class="hide-img"
+                src="img/societe-cartepetite-03.png"
+                alt="small card with girl in christmas mood"
+              />
+              <p class="category-smallcard">société</p>
+              <p class="text-smallcard">
+                11 fun facts sur les chants de Noël pour briller en société
+              </p>
+              <p class="author-smallcard">Team Watson</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -123,36 +273,122 @@
     <section class="section-03-suisse">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-md-11 col-lg-8">
+          <div class="col-sm-12 col-md-11 col-lg-8">
             <include src="big-card-template.html">
-              { "cardimg": "img/suisse-cartegrande.png?as=webp", "cardimgalt":
-              "big card woman in water", "cardauthor": "Team Watson",
-              "cardtitle": "La Suisse fête l'Epiphanie, entre tradition et
-              liesse populaire", "cardchapo": "Les amateurs de traditions
-              peuvent enfin célébrer le jour de l'Epiphanie, le 6 janvier." }
+              { "categoryimg" : "img/suisse-big-img-logo.svg", "categoryimgalt"
+              : "swiss category logo", "cardimg":
+              "img/suisse-cartegrande.png?as=webp", "cardimgalt": "big card
+              woman in water", "cardauthor": "Team Watson", "cardtitle": "La
+              Suisse fête l'Epiphanie, entre tradition et liesse populaire",
+              "cardchapo": "Les amateurs de traditions peuvent enfin célébrer le
+              jour de l'Epiphanie, le 6 janvier." }
             </include>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-12"></div>
-          <div class="col-sm-12 col-md-6 col-lg-12"></div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="medium-card">
+              <img
+                class="hide-img bookmark-mediumcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                src="img/suisse-cartemedium-01.png?as=webp"
+                alt="medium card with 3 unihockey men"
+              />
+              <p class="category-mediumcard">suisse</p>
+              <p class="text-mediumcard">
+                Alain Berset déjà candidat pour un nouveau (prestigieux) job
+              </p>
+              <p class="author-mediumcard">Team Watson</p>
+              <p class="date-date-mediumcard">10.01.2024, 9:12</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="medium-card">
+              <img
+                class="hide-img bookmark-mediumcard"
+                src="img/bookmark.svg"
+                alt="book-mark-icon"
+              />
+              <img
+                src="img/suisse-cartemedium-02.png?as=webp"
+                alt="medium card with 3 unihockey men"
+              />
+              <p class="category-mediumcard">suisse</p>
+              <p class="text-mediumcard">
+                Christophe Darbellay sur le loup: «C’est la définition même du
+                populisme»
+              </p>
+              <p class="author-mediumcard">Sven Papaux</p>
+              <p class="date-date-mediumcard">10.01.2024, 10:00</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <img class="col-3" src="img/cathegorie-03.svg" alt="category sport" />
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <include src="small-card-template.html">
-              { "cardimg" : "img/suisse-cartepetite-01.png?as=webp",
-              "cardimgalt" : "small card with a bear and a disco ball",
-              "cardcategory" : "suisse", "cardtitle" : "Il se passe de drôles de
-              trucs dans la police vaudoise", "cardauthor" : "Team Watson" }
-            </include>
+          <img
+            class="category-logo col-sm-3 col-md-3 col-lg-3"
+            src="img/cathegorie-03.svg"
+            alt="category swiss"
+          />
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <include src="small-card-template.html">
+                  { "cardimg" : "img/suisse-cartepetite-01.png?as=webp",
+                  "cardimgalt" : "small card with a bear and a disco ball",
+                  "cardcategory" : "suisse", "cardtitle" : "Il se passe de
+                  drôles de trucs dans la police vaudoise", "cardauthor" : "Team
+                  Watson" }
+                </include>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="small-card">
+                  <img
+                    class="hide-img bookmark-smallcard"
+                    src="img/bookmark.svg"
+                    alt="book-mark-icon"
+                  />
+                  <img
+                    class="hide-img"
+                    src="img/suisse-cartepetite-02.png"
+                    alt="small acrd with cathedral in Lausanne"
+                  />
+                  <p class="category-smallcard">suisse</p>
+                  <p class="text-smallcard">
+                    La cathédrale de Lausanne va changer de visage: voici à quoi
+                    s'attendre
+                  </p>
+                  <p class="author-smallcard">Team Watson</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="small-card">
+                  <img
+                    class="hide-img bookmark-smallcard"
+                    src="img/bookmark.svg"
+                    alt="book-mark-icon"
+                  />
+                  <img
+                    class="hide-img"
+                    src="img/suisse-cartepetite-03.png"
+                    alt="small card with boat"
+                  />
+                  <p class="category-smallcard">suisse</p>
+                  <p class="text-smallcard">
+                    La Suisse a payé (très) cher pour sa marine marchande et ça
+                    va changer
+                  </p>
+                  <p class="author-smallcard">Team Watson</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4"></div>
-          <div class="col-sm-12 col-md-6 col-lg-4"></div>
         </div>
       </div>
     </section>

@@ -1,0 +1,43 @@
+.medium-card {
+  position: relative;
+  padding: 17px 18px 9px 18px;
+  background-color: white;
+  width: 544px;
+  height: 533px;
+  flex-shrink: 0;
+}
+
+.bookmark-mediumcard {
+  position: absolute;
+  top: 5%;
+  right: 6%;
+  z-index: 1;
+}
+
+.category-mediumcard {
+  color: #c4007a;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.text-mediumcard {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.author-mediumcard {
+  color: #999;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.date-date-mediumcard {
+  color: #999;
+  font-size: 16px;
+  font-weight: 400;
+}
